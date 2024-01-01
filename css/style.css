@@ -146,6 +146,7 @@ img[src="img/iconwolf.png"] {
   border-radius: 7px;
   background-color: transparent;
   color: white;
+  transition: .5s ease;
 }
 
 .btn-dark:hover{

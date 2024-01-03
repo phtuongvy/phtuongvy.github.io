@@ -136,7 +136,6 @@ img[src="img/iconwolf.png"] {
 #aDownload{
   text-decoration: none;
   color: white;
-  transition: .5s ease;
 }
 
 .btn-dark{
@@ -147,6 +146,7 @@ img[src="img/iconwolf.png"] {
   border-radius: 7px;
   background-color: transparent;
   color: white;
+  transition: .5s ease;
   
 }
 

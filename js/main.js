@@ -1,23 +1,23 @@
 // page in execute
-window.onload = function() {
+window.onload = function () {
 
   // wow.js
   new WOW().init();
-  
+
   // background animated vanta.js
   VANTA.HALO({
     el: ".hero-section",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00
+    minHeight: 100.00,
+    minWidth: 100.00
 
   })
 
   // type effect
   var typed = new Typed('#hobbies', {
-    strings: ['developing', 'coding', 'editing', 'learning','gaming'],
+    strings: ['developing', 'coding', 'editing', 'learning'],
     typeSpeed: 70,
     backSpeed: 70,
     loop: true
@@ -32,10 +32,10 @@ window.onload = function() {
   document.head.appendChild(style);
 
   // progress bar change random color
-  setInterval(function() {
+  setInterval(function () {
     var progressBars = document.querySelectorAll('.progress-bar');
 
-    progressBars.forEach(function(progressBar) {
+    progressBars.forEach(function (progressBar) {
       progressBar.style.setProperty('background-color', getRandomColor(), 'important');
       progressBar.style.setProperty('color', 'black', 'important');
       progressBar.style.setProperty('font-weight', 'bold', 'important');
@@ -56,7 +56,7 @@ window.onload = function() {
 
   // email send
   var btn = document.getElementById("btn");
-  btn.addEventListener("click", function(e) {
+  btn.addEventListener("click", function (e) {
     e.preventDefault();
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -65,11 +65,13 @@ window.onload = function() {
     var message = document.getElementById("message").value;
     var body = 'name: ' + name + '<br>email: ' + email + '<br>number: ' + number + '<br>subject: ' + subject + '<br>message: ' + message;
     Email.send({
-      SecureToken: "dd7bb908-b636-4ba7-83ff-02b26511efac",
-      To : 'phamhuyt@iut-acy.univ-smb.fr',
-      From : "phamhuyt@iut-acy.univ-smb.fr",
-      Subject : "contact message",
-      Body : body
+      Host: "smtp.elasticemail.com",
+      Username: "bsword1702@gmail.com",
+      Password: "82A0F53E3956A93867CFF0B5EBDB1D0D3659",
+      To: 'bsword1702@gmail.com',
+      From: "Portfolio <bsword1702@gmail.com",
+      Subject: "Portfolio Contact Message",
+      Body: body,
     }).then(
       message => alert(message)
     );
@@ -79,7 +81,7 @@ window.onload = function() {
   // scroll to top
   var scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-  window.addEventListener("scroll", function() {
+  window.addEventListener("scroll", function () {
     if (window.pageYOffset > 100) {
       scrollToTopBtn.style.display = "block";
     } else {
@@ -87,13 +89,13 @@ window.onload = function() {
     }
   });
 
-  scrollToTopBtn.addEventListener("click", function() {
+  scrollToTopBtn.addEventListener("click", function () {
     window.scrollTo({
       top: 0,
       behavior: "smooth"
     });
   });
-  
+
 }
 
 // random color

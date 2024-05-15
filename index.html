@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Tuong Vy Portfolio | Web Developer</title>
   <meta charset="utf-8">
@@ -9,328 +10,423 @@
 
   <!-- linking css file -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
   <!-- js CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
 
-  
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet">
+
+
 </head>
 
 <body>
-    
-    
-    <header>
-      <!-- navbar start -->
-      <nav class="navbar navbar-expand-lg mx-3" id="navbar">
-        <div class="container-fluid">
-            <div id="divName">
-                <img src="img/iconwolf.png" alt="icon wolf">
-              <a class="navbar-brand mx-2" href="#">TUONG VY</a>
-            </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler">
-                <i class="fa-solid fa-bars-staggered" style="color: white;"></i>
-            </span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Start</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#workExperience">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#uniProject">University Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              
-            </ul>
-            
-          </div>
+
+
+  <header>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg mx-3" id="navbar">
+      <div class="container-fluid">
+        <div id="divName">
+          <img src="img/iconwolf.png" alt="icon wolf">
+          <a class="navbar-brand mx-2" href="#">TUONG VY</a>
         </div>
-      </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler">
+            <i class="fa-solid fa-bars-staggered" style="color: white;"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Start</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workExperience">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#uniProject">University Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
 
-      <!-- navbar end -->
-    </header>
-
-    <button id="scrollToTopBtn"><img src="https://img.icons8.com/color/48/circled-up--v1.png" alt="top button"></button>
-    
-   
-    
-    <!-- hero section start -->
-    <section class="hero-section" style="margin-top: 100px !important;">
-        <div class="container my-5">
-            <div class="row">
-                <div class="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-                    <h3 class="text-white fw-bold fs-3 wow animate__animated animate__headShake">Hi, it's me <span style="color: #5918df;">Tuong Vy Pham Huynh</span></h3>
-                    <h2 class="text-white fw-bold fs-2 my-2">i am <span style="font-style: italic; font-family: 'Palatino';">second year </span>student at IUT Annecy and I like <span style="font-family: 'Roboto Mono';" id="hobbies"></span></h2>
-                    <div id="divSocial" class="row my-3">
-                      <div class="col-md-2 col-4 col-lg-2">
-                        <a href="mailto:Tuong-Vy.Pham-Huynh@etu.univ-smb.fr"><i class="fa-solid fa-envelope"></i></a>
-                      </div>
-                      <div class="col-md-2 col-4 col-lg-2">
-                        <a href="https://www.linkedin.com/in/phtuongvy/"><i class="fa-brands fa-linkedin"></i></a>
-                      </div>
-                    </div>
-
-                    <div class="d-flex gap-3 my-3">
-                        <button class="btn-dark text-uppercase"><a id="aDownload" href="https://drive.usercontent.google.com/download?id=17GOcDNu81H2kuSn4bfu-TNR1QtNEemiP&export=download&authuser=0&confirm=t&uuid=48103e7a-091a-41dd-8c42-c030f0750a6b&at=APZUnTWBZaPJp8sL46LkJvqYah2M:1703263334999" download="CV Developer">Download my resume
-                            <i class="fa-sharp fa-solid fa-download"></i></a>
-                        </button>
-                        
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 col-lg-6">
-                    <!-- <img src="img/bgimage.png" class="img-fluid" alt=""> -->
-
-                </div>
-            </div>
-        </div>
-        <!-- vanta.js start -->
-        <div class="banner"></div>
-
-        <!-- vanta.js end -->
-    </section>
-
-    <!-- hero section end -->
-
-    
-    <!-- work experience section start -->
-    <section id="workExperience" class="workExperience" style="margin-top: 150px !important;">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-12 col-md-12 text-center wow animate__animated animate__fadeInDown">
-            <h2 class="text-white fw-bold fs-1">My <span class="fw-bold fs-1" style="color: #3ccea2;">work experience</span></h2>
-            <p class="text-white my-4">Here are some places where I started to learn about the world of work</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center wow animate__animated animate__bounceInLeft">
-            <div class="card my-3">
-              <img src="img/lerepaire.jpg" class="card-img" alt="pub repaire">
-              <div class="card-body">
-                <h1 class="card-title">Pub Le'Repaire - Annecy, France</h1>
-                <p class="card-sub-title">Summer 2023</p>
-                <p class="card-sub-title">Summer 2022</p>
-                <p class="card-info">Bartender (serving drinks to clients, preparing
-                  drinks for clients) </p>
-                <button class="card-btn"><a href="https://check.fr/ville/annecy/etablissement/le-repaire-2/">Check the pub</a></button>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center wow animate__animated animate__bounceInRight">
-            <div class="card my-3">
-              <img src="img/lepetitzinc.jpg" class="card-img" alt="petit zinc">
-              <div class="card-body">
-                <h1 class="card-title">Restaurant Le Petit Zinc - Annecy, France</h1>
-                <p class="card-sub-title">Summer 2021</p>
-                <p class="card-info">Waitress (serving food and drinks to clients)</p>
-                <button class="card-btn"><a href="https://fr.restaurantguru.com/Le-Petit-Zinc-Annecy">Check it</a></button>
-
-              </div>
-            </div>
-          </div>
-          
+          </ul>
 
         </div>
-
       </div>
+    </nav>
 
-    </section>
+    <!-- navbar end -->
+  </header>
 
-    <!-- work experience section end -->
+  <button id="scrollToTopBtn"><img src="https://img.icons8.com/color/48/circled-up--v1.png" alt="top button"></button>
 
 
-    <!-- university projects section start -->
-    <section id="uniProject" class="uniProject" style="margin-top: 150px !important;">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-12 col-md-12 text-center wow animate__animated animate__fadeInDown">
-            <h2 class="text-white fw-bold fs-1">My <span class="fw-bold fs-1" style="color: #33C8FF;">university projects</span></h2>
-            <p class="text-white my-4">Here are some projects that I worked on with my team at university</p>
+
+  <!-- hero section start -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
+          <h3 class="text-white fw-bold fs-3 wow animate__animated animate__headShake">Hi, it's me <span
+              style="color: #5918df;">Tuong Vy Pham Huynh</span></h3>
+          <h2 class="text-white fw-bold fs-2 my-2">i am <span
+              style="font-style: italic; font-family: 'Palatino';">second year </span>student at IUT Annecy and I like
+            <span style="font-family: 'Roboto Mono';" id="hobbies"></span>
+          </h2>
+          <div id="divSocial" class="row my-3">
+            <div class="col-md-2 col-4 col-lg-2">
+              <a href="mailto:Tuong-Vy.Pham-Huynh@etu.univ-smb.fr"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="col-md-2 col-4 col-lg-2">
+              <a href="https://www.linkedin.com/in/phtuongvy/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 my-3">
+            <a id="aDownload"
+              href="https://drive.usercontent.google.com/download?id=1INwdCgcZNTeT8At4F2uAquV_w0L2Yxam&export=download&authuser=2&confirm=t&uuid=360cb7d5-8ef1-4a6d-86d6-685f70a4870e&at=APZUnTWCeJOuA6NEETPRTecGJOeB:1715733293769"
+              download="CV Developer"><button class="btn-dark text-uppercase">Download my CV <i
+                  class="fa-sharp fa-solid fa-download"></i></button>
+
+            </a>
+
+
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
-            <div class="card my-3">
-              <img src="img/leboncoin.png" class="card-img" alt="leboncoin">
-              <div class="card-body">
-                <h1 class="card-title">Leboncoin</h1>
-                <p class="card-sub-title">2023</p>
-                <p class="card-info">Developing a merchandising website with Laravel
-                  framework, HTML, CSS, PHP and work environment GitHub</p>
-                <button class="card-btn"><a href="http://iutannecy-deptinfo.fr/hide/?port=2004">Check it out</a></button>
+        <!-- <div class="col-md-6 col-12 col-lg-6"> -->
+        <!-- <img src="img/bgimage.png" class="img-fluid" alt=""> -->
 
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
-            <div class="card my-3">
-              <img src="img/bouing.png" class="card-img" alt="bouing game">
-              <div class="card-body">
-                <h1 class="card-title">Bouing Game</h1>
-                <p class="card-sub-title">2022</p>
-                <p class="card-info">Developing a game with SFML framework and C#</p>
-                <button class="card-btn"><a href="https://youtu.be/lEUVA6pqRXk">Check it out</a></button>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
-            <div class="card my-3">
-              <img src="img/figma project.png" class="card-img" alt="figma mockup">
-              <div class="card-body">
-                <h1 class="card-title">Grand Annecy website mockup</h1>
-                <p class="card-sub-title">2022</p>
-                <p class="card-info">Web page conceptualizing with Figma application</p>
-                <button class="card-btn"><a href="https://www.figma.com/proto/HukVNy20lGTzMVLI25zyzS/Maquette-web-pjS1.0.5?node-id=128-2&starting-point-node-id=128%3A2&scaling=scale-down">Check it out</a></button>
-              </div>
-            </div>
-          </div>
-          
-
-        </div>
-
+        <!-- </div> -->
       </div>
+    </div>
+    <!-- vanta.js start -->
+    <div class="banner"></div>
 
-    </section>
+    <!-- vanta.js end -->
+  </section>
 
-    <!-- university projects section end -->
+  <!-- hero section end -->
 
-     <!-- about section start -->
-     <section id="about" class="about" style="margin-top: 100px !important;">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-6 col-md-6 wow animate__animated animate__backInLeft">
-            <img src="img/cvphoto.png" class="img-fluid rounded-circle grayscale" alt="cv photo">
-          </div>
-          <div class="col-12 col-lg-6 col-md-6 my-3 wow animate__animated animate__backInRight">
-            <h2 class="text-white fw-bold" >Hello! I am <span style="color: #5918df;">Tuong Vy Pham Huynh</span>.</h2>
-              <p class="text-white fs-6 my-2" style="text-align: justify;">I am a Vietnamese second-year university student in computer science at the University of Savoy, France.
-                Web development and
-                creating video games are my passions, and I have always been
-                looking forward to enhancing my abilities. <br>
-                So, I would like to develop my knowledge through professional
-                experience in this field.
+
+  <!-- work experience section start -->
+  <section id="workExperience" class="workExperience">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 col-md-12 text-center wow animate__animated animate__fadeInDown">
+          <h2 class="text-white fw-bold fs-1">My <span class="fw-bold fs-1" style="color: #3ccea2;">work
+              experience</span></h2>
+          <p class="text-white my-4">Here are some places where I started to learn about the world of work</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__bounceInLeft">
+          <div class="card my-3">
+            <img src="img/GeoCode_thumbnail.png" class="card-img" alt="pub repaire">
+            <div class="card-body">
+              <h1 class="card-title">GeoCode - Chambéry, France</h1>
+              <p class="card-sub-title">Spring 2024</p>
+              <p class="card-info">Developing company’s website with frameworks:
+                React.js, Django REST and deploying within Docker
               </p>
-              <div class="my-3 d-flex flex-column gap-3">
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="HTML" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML 90%</div>
-                </div>
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="CSS" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">CSS 90%</div>
-                </div>
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="JavaScript" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">JavaScript 80%</div>
-                </div>
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="PostgreSQL" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">PostgreSQL 80%</div>
-                </div>
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="PHP" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">PHP 80%</div>
-                </div>
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="Python" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Python 80%</div>
-                </div>
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="C#" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">C# 80%</div>
-                </div>
-                <div class="progress" style="height: 30px;">
-                  <div class="progress-bar" role="progressbar" aria-label="C++" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">C++ In progress</div>
-                </div>
-              </div>
+              <a href="https://geocode.world"><button class="card-btn">Check the
+                  company</button>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center">
+          <div class="card my-3">
+            <img src="img/lerepaire.jpg" class="card-img" alt="pub repaire">
+            <div class="card-body">
+              <h1 class="card-title">Pub Le'Repaire - Annecy, France</h1>
+              <p class="card-sub-title">Summer 2023</p>
+              <p class="card-sub-title">Summer 2022</p>
+              <p class="card-info">Bartender (serving drinks to clients, preparing
+                drinks for clients) </p>
+              <a href="https://check.fr/ville/annecy/etablissement/le-repaire-2/"><button class="card-btn">Check the
+                  pub</button>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__bounceInRight">
+          <div class="card my-3">
+            <img src="img/lepetitzinc.jpg" class="card-img" alt="petit zinc">
+            <div class="card-body">
+              <h1 class="card-title">Restaurant Le Petit Zinc - Annecy, France</h1>
+              <p class="card-sub-title">Summer 2021</p>
+              <p class="card-info">Waitress (serving food and drinks to clients)</p>
+              <a href="https://fr.restaurantguru.com/Le-Petit-Zinc-Annecy"><button class="card-btn">Check
+                  the restaurant</button></a>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- work experience section end -->
+
+
+  <!-- university projects section start -->
+  <section id="uniProject" class="uniProject">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 col-md-12 text-center wow animate__animated animate__fadeInDown">
+          <h2 class="text-white fw-bold fs-1">My <span class="fw-bold fs-1" style="color: #33C8FF;">university
+              projects</span></h2>
+          <p class="text-white my-4">Here are some projects that I worked on with my team at university</p>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
+          <div class="card my-3">
+            <img src="img/img_twitter.png" class="card-img" alt="Twitter">
+            <div class="card-body">
+              <h1 class="card-title">Clone Twitter</h1>
+              <p class="card-sub-title">2024</p>
+              <p class="card-info">Cloning Twitter with a setup using Vue.js for the front-end,
+                Node.js for the back-end, and MySQL for the database,
+                then deploying it within Docker
+              </p>
+              <a href="https://github.com/phtuongvy/virtualisation_X"><button class="card-btn">Check out
+                  repo</button></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
+          <div class="card my-3">
+            <img src="img/img_bmw.png" class="card-img" alt="BMW">
+            <div class="card-body">
+              <h1 class="card-title">BMW</h1>
+              <p class="card-sub-title">2024</p>
+              <p class="card-info">Developing a merchandising website with frameworks:
+                Vue.js, ASP.NET Core and deploying on Azure Web Service
+              </p>
+              <a href="https://apisaebmw.azurewebsites.net/swagger/index.html"><button class="card-btn">Check
+                  out API</button>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
+          <div class="card my-3">
+            <img src="img/leboncoin.png" class="card-img" alt="leboncoin">
+            <div class="card-body">
+              <h1 class="card-title">Leboncoin</h1>
+              <p class="card-sub-title">2023</p>
+              <p class="card-info">Developing a merchandising website with Laravel
+                framework, HTML, CSS, PHP and work environment GitHub</p>
+              <a href="http://iutannecy-deptinfo.fr/hide/?port=2004"><button class="card-btn">Check out
+                  website</button></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
+          <div class="card my-3">
+            <img src="img/bouing.png" class="card-img" alt="bouing game">
+            <div class="card-body">
+              <h1 class="card-title">Bouing Game</h1>
+              <p class="card-sub-title">2022</p>
+              <p class="card-info">Developing a game with SFML framework and C#</p>
+              <a href="https://youtu.be/lEUVA6pqRXk"><button class="card-btn">Check out trailer</button></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-4 d-flex justify-content-center wow animate__animated animate__slideInDown">
+          <div class="card my-3">
+            <img src="img/figma project.png" class="card-img" alt="figma mockup">
+            <div class="card-body">
+              <h1 class="card-title">Grand Annecy website mockup</h1>
+              <p class="card-sub-title">2022</p>
+              <p class="card-info">Web page conceptualizing with Figma application</p>
+              <a
+                href="https://www.figma.com/proto/HukVNy20lGTzMVLI25zyzS/Maquette-web-pjS1.0.5?node-id=128-2&starting-point-node-id=128%3A2&scaling=scale-down"><button
+                  class="card-btn">Check
+                  out mockup</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- university projects section end -->
+
+  <!-- about section start -->
+  <section id="about" class="about">
+    <div class="container px-3">
+      <div class="row">
+        <div class="col-12 col-lg-5 col-md-6 wow animate__animated animate__backInLeft">
+          <img src="img/me.png" class="img-fluid rounded-circle w-50 d-block mx-auto"
+            style="background-color: whitesmoke; border: 2px solid white;" alt="cv photo">
+        </div>
+        <div class="col-12 col-lg-7 col-md-6 my-4 wow animate__animated animate__backInRight">
+          <h2 class="text-white fw-bold">Hello! I am <span style="color: #5918df;">Tuong Vy Pham Huynh</span>.</h2>
+          <p class="text-white fs-6 my-2" style="text-align: justify;">I am a Vietnamese second-year university student
+            in computer science at the University of Savoy, France.
+            Web development and
+            creating video games are my passions, and I have always been
+            looking forward to enhancing my abilities. <br>
+            So, I would like to develop my knowledge through professional
+            experience in this field.
+          </p>
+          <div class="my-3 d-flex flex-column gap-3">
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="HTML" style="width: 90%;" aria-valuenow="90"
+                aria-valuemin="0" aria-valuemax="100">HTML 90%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="CSS" style="width: 90%;" aria-valuenow="90"
+                aria-valuemin="0" aria-valuemax="100">CSS 90%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="JavaScript" style="width: 85%;"
+                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">JavaScript 85%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="PostgreSQL" style="width: 80%;"
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">PostgreSQL 80%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="NoSQL" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">NoSQL 80%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="PHP" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">PHP 70%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="Python" style="width: 75%;" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">Python 75%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="C#" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">C# 80%</div>
+            </div>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar" role="progressbar" aria-label="C++" style="width: 25%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">C++ In progress</div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- about section end -->
+  <!-- about section end -->
 
-    <!-- contact section start -->
-    <section id="contact" class="contact" style="margin-top: 100px !important;">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-12 col-md-12 text-center wow animate__animated animate__fadeInDown">
-            <h2 class="fw-bold fs-1" style="color: #de8e1e;">Contact <span class="text-white fw-bold fs-1">me</span></h2>
-            <p class="text-white my-4">If you have any questions, please contact me</p>
-          </div>
-          <form action="#">
-            <div class="input-box">
-              <input id="name" class="text-white" type="text" placeholder="Full Name">
-              <input id="email" class="text-white" type="email" placeholder="Email">
-
-            </div>
-
-            <div class="input-box">
-              <input id="number" class="text-white" type="number" placeholder="Mobile number">
-              <input id="subject" class="text-white" type="text" placeholder="Email subject">
-
-            </div>
-            <textarea class="text-white" name="message" id="message" cols="30" rows="10" placeholder="Your message here"></textarea>
-            <input id="btn" type="submit" value="Send Message" class="btn-dark">
-          </form>
+  <!-- contact section start -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 col-md-12 text-center wow animate__animated animate__fadeInDown">
+          <h2 class="fw-bold fs-1" style="color: #de8e1e;">Contact <span class="text-white fw-bold fs-1">me</span></h2>
+          <p class="text-white my-4">If you have any questions, please contact me</p>
         </div>
-    </section>
+        <form action="#">
+          <div class="input-box">
+            <input id="name" class="text-white" type="text" placeholder="Full Name">
+            <input id="email" class="text-white" type="email" placeholder="Email">
 
-    <!-- contact section end -->
+          </div>
 
+          <div class="input-box">
+            <input id="number" class="text-white" type="text" placeholder="Mobile number">
+            <input id="subject" class="text-white" type="text" placeholder="Email subject">
 
-    <!-- footer section start -->
-    
-    <footer class="footer">
-      <div class="footer-text">&copy;
-        <script>
-          document.write(new Date().getFullYear());
-        </script> This website is made with <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> by <a style="text-decoration: none;" href="https://www.linkedin.com/in/phtuongvy/" target="_blank">Tuong Vy Pham Huynh</a>
+          </div>
+          <textarea class="text-white" name="message" id="message" cols="30" rows="10"
+            placeholder="Your message here"></textarea>
+          <input id="btn" type="submit" value="Send Message" class="btn-dark">
+        </form>
       </div>
-      <!-- <div class="footer-iconTop">
-        <a href="#"><i class="fa-solid fa-up-to-line"></i></a>
-      </div> -->
+      <!-- footer start -->
 
-    </footer>
-  
-  
-    <!-- footer section end -->
+      <footer class="footer px-3">
 
-    
+        <div class="footer-text">&copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script> This website is made with <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i
+            class="fa-brands fa-js"></i> by <a style="text-decoration: none;"
+            href="https://www.linkedin.com/in/phtuongvy/" target="_blank">Tuong Vy Pham Huynh</a>
+        </div>
 
-    
-   
+      </footer>
 
-    <!-- bootstrap library  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- type.js library -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- gsap, scrolltrigger, scrolltopluging library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
-    <!-- vanta.js library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
-    <!-- wow.js library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <!-- smtpjs library -->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="js/main.js"></script>
+      <!-- footer end -->
+    </div>
+
+  </section>
+
+  <!-- contact section end -->
+
+
+
+
+
+
+
+
+
+  <!-- bootstrap library  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- type.js library -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- gsap, scrolltrigger, scrolltopluging library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+  <!-- vanta.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+  <!-- wow.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!-- smtpjs library -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
+
 </html>

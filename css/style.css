@@ -16,6 +16,7 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   /* scroll-padding-top: 200px; */
+  /* scroll-padding-top: 20lvh; */
 }
 
 section {
@@ -170,9 +171,9 @@ img[src="img/iconwolf.png"] {
 
 /* about section style */
 
-.grayscale {
+/* .grayscale {
   filter: grayscale(100%);
-}
+} */
 
 /* sticky navbar */
 /* .sticky{
@@ -213,28 +214,7 @@ img[src="img/iconwolf.png"] {
   transition: 2s;
 }
 
-/* For tablets and phones */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
-  .about {
-    height: 120vh;
-  }
-
-}
-
-@media (orientation: portrait) {
-  .uniProject {
-    height: 200vh;
-  }
-
-  .about {
-    height: 120vh;
-  }
-
-  .workExperience {
-    height: 160lvh;
-  }
-}
 
 
 .uniProject .card {
@@ -364,4 +344,49 @@ img[src="img/iconwolf.png"] {
 
 .footer-text {
   font-size: 1.6rem;
+}
+
+
+/* For tablets and phones */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .about {
+    height: 150lvh;
+  }
+
+}
+
+@media (orientation: portrait) {
+  .uniProject {
+    height: 220lvh;
+  }
+
+  .about {
+    height: 150lvh;
+  }
+
+  .workExperience {
+    height: 180lvh;
+  }
+  .workExperience .card {
+    max-width: 100%;
+    width: 80lvw;
+    height: 40lvh;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid white;
+  }
+  .uniProject .card {
+    max-width: 100%;
+    width: 80lvw;
+    height: 40lvh;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid white;
+  }
+
+  .contact {
+    height: 150lvh;
+  }
+ 
 }

@@ -84,6 +84,7 @@ window.onload = function () {
   window.addEventListener("scroll", function () {
     if (window.pageYOffset > 100) {
       scrollToTopBtn.style.display = "block";
+      scrollToTopBtn.style.zIndex = "100";
     } else {
       scrollToTopBtn.style.display = "none";
     }
